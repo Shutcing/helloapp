@@ -7,11 +7,18 @@ namespace HelloApp
         static void Main (string[] args)
         {
             Console.WriteLine("hello everyone and Merry X-mas");
+            GreetBlack();
+            GreetWhite();
         }
 
         static void GreetWhite ()
         {
             Console.WriteLine("hello to white people");
+        }
+
+        static void GreetBlack ()
+        {
+            Console.WriteLine("hello to black people");
         }
     }
 }
